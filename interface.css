@@ -1,0 +1,287 @@
+*{
+    
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    align-items: center;
+}
+    
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    
+    width: 100px;
+}
+.logo{
+    background-image: url(latest.webp);
+    background-size:cover;
+    height: 35px;
+}
+.border:hover{
+    border: 2px solid pink;
+}
+.nav_address{
+    color: white;
+}
+
+
+
+/** box2**/
+.add-one{
+    color: #cccccc;
+    font-size: 1rem;  
+    margin-left: 15px;  
+}
+.add-two{
+    font-size: 1rem;
+}
+.icon{
+    align-items: center;
+    display: flex;
+}
+
+
+.nav-searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 25px;
+    width: 600px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: orange;
+    
+}
+.search-select{
+    border: none;
+    width: 45px;
+    height: 25px;
+    background-color: white;
+    text-align: center;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    border: none;
+
+}
+.search-input
+{
+width: 530px;
+height: 23px;
+border: none;
+font-size: 1rem;
+
+}
+.search-icon{
+    width: 30px;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+
+.signin-first{
+    font-size: 0.7rem;
+}
+.signin-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-searchbar:hover{
+    border: 3px solid orange;
+}
+
+.nav-carts i{
+ 
+    font-size: 30px;
+     color: white;
+}
+
+.nav-carts{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    display: flex;  
+    justify-content: space-evenly;  
+}
+.panel-ops {
+    display:flex;
+    justify-content: space-evenly;
+    width: 70%;
+    font-size: 0.85rem;
+    margin: left 10px;
+}
+.panel-ops p{
+    display: inline-block;
+}
+.deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.greatindia{
+    background-image:url(greatindia.jpg);
+    background-size: cover;
+    height: 350px;
+}
+
+.shop-section{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+
+
+}
+.shop-section2,.bike-section{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+
+
+}
+
+
+.box1,.box2,.box3,.box4,.box5,.box6{
+    border: 2px solid black;
+     align-items: center;
+    height: 420px;
+    width: 30%;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+.electro{
+    background-image:url(electro.jpg) ;
+    background-size: cover;
+    height:380px ;  
+    
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.box2{
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home-img1,.home-img2,.home-img3,.home-img4{
+    height: 192px;
+    width: 50%;
+    justify-content: space-evenly;
+    border:2px solid black;
+}
+.home-img{
+    justify-content: evenly;
+}
+.home-img1{
+    background-image: url(one-home.jpg);
+    background-size: cover;
+    height: ;
+    width: 50%;
+}
+.home-img2{
+    background-image: url(two-home.jpg);
+    height: 100;
+    background-size: cover;
+}
+.home-img3{
+    background-image: url(three-home.jpg);
+    background-size: cover;
+}
+.home-img4{
+    background-image: url(four-home.jpg);
+    background-size: cover;
+}
+.row1,.row2{
+    display: flex;
+}
+.gaming{
+    background-image: url(gaming2.jpg);
+    background-size: cover;
+    height:380px;
+   width: 100%;
+}
+
+.watch{
+    background-image: url(watch.jpg);
+    background-size: cover;
+    height:380px;
+   width: 100%;
+}
+.perfume{
+    background-image: url(perfume.jpg);
+    background-size: cover;
+    height:380px;
+   width: 100%;
+
+}
+.pants{
+    background-image: url(shoes.jpg);
+    background-size: cover;
+    height:380px;
+   width: 100%;
+}
+
+
+
+ .bike-section {
+      padding: 20px;
+      background: #f8f8f8;
+      display: flex;
+      flex-direction: column;
+    }
+
+    
+    
+    
+    
+
+    .bike {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;   
+      scrollbar-width: thin;   
+      margin-top: 5px;
+    }
+
+    .bike div {
+      flex: 0 0 auto;
+      width: 250px;
+      height: 150px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+   
+    .bike1 { 
+        background-image: url('bike_1.jpg'); 
+    }
+    .bike2 
+    { 
+        background-image: url('bike_2.jpg');
+     }
+    .bike3 {
+         background-image: url('bike_3.jpg');
+         }
+    .bike4 {
+         background-image: url('bike_4.jpg'); 
+        }
+    .bike5 { 
+        background-image: url('bike_5.jpg'); 
+    }
+  
