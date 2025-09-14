@@ -20,7 +20,7 @@
     width: 100px;
 }
 .logo{
-    background-image: url(latest.webp);
+    background-image: url(pictures/latest.webp);
     background-size:cover;
     height: 35px;
 }
@@ -132,7 +132,7 @@ font-size: 1rem;
     font-weight: 700;
 }
 .greatindia{
-    background-image:url(greatindia.jpg);
+    background-image:url(pictures/greatindia.jpg);
     background-size: cover;
     height: 350px;
 }
@@ -162,7 +162,7 @@ font-size: 1rem;
     margin-top: 5px;
 }
 .electro{
-    background-image:url(electro.jpg) ;
+    background-image:url(pictures/electro.jpg) ;
     background-size: cover;
     height:380px ;  
     
@@ -188,49 +188,49 @@ font-size: 1rem;
     justify-content: evenly;
 }
 .home-img1{
-    background-image: url(one-home.jpg);
+    background-image: url(pictures/one-home.jpg);
     background-size: cover;
     height: ;
     width: 50%;
 }
 .home-img2{
-    background-image: url(two-home.jpg);
+    background-image: url(pictures/two-home.jpg);
     height: 100;
     background-size: cover;
 }
 .home-img3{
-    background-image: url(three-home.jpg);
+    background-image: url(pictures/three-home.jpg);
     background-size: cover;
 }
 .home-img4{
-    background-image: url(four-home.jpg);
+    background-image: url(pictures/four-home.jpg);
     background-size: cover;
 }
 .row1,.row2{
     display: flex;
 }
 .gaming{
-    background-image: url(gaming2.jpg);
+    background-image: url(pictures/gaming2.jpg);
     background-size: cover;
     height:380px;
    width: 100%;
 }
 
 .watch{
-    background-image: url(watch.jpg);
+    background-image: url(pictures/watch.jpg);
     background-size: cover;
     height:380px;
    width: 100%;
 }
 .perfume{
-    background-image: url(perfume.jpg);
+    background-image: url(pictures/perfume.jpg);
     background-size: cover;
     height:380px;
    width: 100%;
 
 }
 .pants{
-    background-image: url(shoes.jpg);
+    background-image: url(pictures/shoes.jpg);
     background-size: cover;
     height:380px;
    width: 100%;
@@ -269,19 +269,19 @@ font-size: 1rem;
 
    
     .bike1 { 
-        background-image: url('bike_1.jpg'); 
+        background-image: url('pictures/bike_1.jpg'); 
     }
     .bike2 
     { 
-        background-image: url('bike_2.jpg');
+        background-image: url('pictures/bike_2.jpg');
      }
     .bike3 {
-         background-image: url('bike_3.jpg');
+         background-image: url('pictures/bike_3.jpg');
          }
     .bike4 {
-         background-image: url('bike_4.jpg'); 
+         background-image: url('pictures/bike_4.jpg'); 
         }
     .bike5 { 
-        background-image: url('bike_5.jpg'); 
+        background-image: url('pictures/bike_5.jpg'); 
     }
   
